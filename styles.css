@@ -1,0 +1,277 @@
+/* General Reset */
+body, html, ul, li, h1, h3, p a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: #FA793A;
+  }
+  
+h2{
+  padding: auto;
+  text-align: center;
+}
+
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background: #94B4DC;
+    color: #000000;
+  }
+  
+  .navbar ul {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar ul li a, .icons a {
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+    /* Catálogo Section */
+  .catalogo {
+    padding: 50px 30px;
+    text-align: center;
+  }
+
+  .catalogo h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  .catalogo p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #333;
+  }
+
+  .productos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .producto {
+    text-align: center;
+    margin: 10px;
+  }
+
+  .producto img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .producto p {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+  /* Quiénes Somos Section */
+  .quienes-somos {
+    padding: 50px 30px;
+    text-align: center;
+  }
+
+  .quienes-somos h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  .quienes-somos p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  .quienes-somos h3 {
+    font-size: 28px;
+    color: #333;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 30px;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  .hero .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #FA793A;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  /* Why Choose Us */
+  .why-choose-us {
+    padding: 10px 10px;
+    background: #EAEBFC;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  .features {
+    display: flex;
+    gap: 50px;
+    padding: 40px;
+  }
+  
+  .feature {
+    flex: 1;
+    text-align: center;
+  }
+  
+  /* Products Section */
+  .nuestros_productos {
+    padding: 50px 30px;
+  }
+  
+  .products {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    justify-content: space-around;
+  }
+  
+  .product {
+    text-align: center;
+  }
+
+    /* Contactos Section */
+  .contactos {
+    padding: 50px 30px;
+    text-align: center;
+  }
+
+  .contactos h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  .contactos p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  .contactos h3 {
+    font-size: 28px;
+    color: #333;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+
+  .contact-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .form-group label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+
+  .form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .form-group textarea {
+    resize: vertical;
+    height: 150px;
+  }
+
+  .btn-submit {
+    padding: 10px 20px;
+    background: #FA793A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .btn-submit:hover {
+    background-color: #FA793A;
+  }
+
+  .contact-info {
+    font-size: 16px;
+    color: #fff;
+    margin-top: 10px;
+  }
+
+  .contact-info p {
+    margin: 5px 0;
+  }
+
+  .contact-info a {
+    color: rgb(255, 8, 0);
+  }
+
+  .social-icons {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+
+  .social-icons a {
+    color: #FA793A;
+    text-decoration: none;
+  }
+
+  .social-icons a:hover {
+    text-decoration: underline;
+  }
+
+  
+  /* Footer */
+  footer {
+    background: #94B4DC;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .icons i {
+    font-size: 2rem;
+    color: #ffc107;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+
+
+
